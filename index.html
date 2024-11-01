@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/style.css" />
+  </head>
+  <body>
+    <!-- ========== Start Navbar Section ========== -->
+    <header class="mb-2">
+      <section class="container">
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a
+              class="navbar-brand navbar-logo"
+              href="#"
+              style="margin-right: auto"
+            >
+              <img src="images/logo.png" alt="logo" />
+            </a>
+
+            <!-- hamburger-icon -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- links -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- ========== End Navbar Section ========== -->
+    <!-- ========== Start Hero Section ========== -->
+    <section class="container hero-section">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- 1st-item -->
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>Macbook pro</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                  quaerat consequatur quis quas. Dicta aliquam accusamus ea
+                  deserunt magnam tempore.
+                </p>
+                <button class="buy-now-button">Buy Now &roarr;</button>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="images/banner-products/product-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- 2nd-item -->
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>Google Assistant</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                  quaerat consequatur quis quas. Dicta aliquam accusamus ea
+                  deserunt magnam tempore.
+                </p>
+                <button class="buy-now-button">Buy Now &roarr;</button>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="images/banner-products/slider-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- 3rd-item -->
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1>JBL Speaker</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Omnis autem corrupti pariatur minima qui, reprehenderit rem
+                  illo architecto. Sed, adipisci.
+                </p>
+                <button class="buy-now-button">Buy Now &roarr;</button>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="images/banner-products/slider-3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ========== End Hero Section ========== -->
+    <!-- ========== Start Smartphone Section ========== -->
+    <section class="smartphone-section container">
+      <div
+        class="smartphone-title d-flex justify-content-between align-items-center mb-4"
+      >
+        <h3>Smartphone</h3>
+        <span class="text-yellow">See all</span>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 1st-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/phone/phone-2.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 11 pro</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$999</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/phone/phone-3.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$799</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/phone/phone-1.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi Redmi 10</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$699</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Smartphone Section ========== -->
+    <!-- ========== Start Laptop Section ========== -->
+    <section class="smartphone-section container">
+      <div
+        class="smartphone-title d-flex justify-content-between align-items-center mb-4"
+      >
+        <h3>Laptop</h3>
+        <span class="text-yellow">See all</span>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 1st-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/laptop/product-1.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Asus vivobook</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$999</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/laptop/product-2.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Razor Blade 15</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$2799</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd-card -->
+        <div class="col">
+          <div class="card text-center">
+            <img
+              src="images/laptop/product-3.png"
+              class="card-img-top m-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, conse adip elit.
+              </p>
+              <h5>$999</h5>
+              <button class="buy-now-button">Buy Now &roarr;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Laptop Section ========== -->
+    <!-- ========== Start categories Section ========== -->
+    <section class="categories-section container mt-5">
+      <!-- categories-heading -->
+      <div class="categories-text mb-5 mt-5 text-center">
+        <h3 class="d-inline">Categories</h3>
+      </div>
+
+      <!-- row -->
+      <div class="row text-center g-5">
+        <!-- col-1 -->
+        <div class="col-md-3 d-flex justify-content-center align-items-center mobile">
+          <div class="cat-box">
+            <img src="images/Categories/bag.png" alt="" class="img-150px" />
+            <h5 class="mt-3">Bag</h5>
+          </div>
+        </div>
+        <!-- col-2 -->
+        <div class="col-md-3 d-flex flex-column align-items-center">
+          <div class="cat-box mb-5">
+            <img src="images/Categories/perfume.png" alt="" class="img-150px" />
+            <h5 class="mt-3">Beauty</h5>
+          </div>
+          <div class="cat-box">
+            <img src="images/Categories/shoe.png" alt="" class="img-150px" />
+            <h5 class="mt-3">Shoe</h5>
+          </div>
+        </div>
+        <!-- col-3 -->
+        <div class="col-md-6">
+          <img
+            src="images/Categories/pale-order.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ========== End categories Section ========== -->
+
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
